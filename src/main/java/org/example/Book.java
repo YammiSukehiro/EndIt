@@ -33,5 +33,16 @@ public class Book {
         this.isAvailable = available;
     }
 
+    private int rentCount = 0;
+
+    public int getRentCount() {
+        return rentCount;
+    }
+
+    public void incrementRentCount() {
+        rentCount++;
+    }
+
+
 }
 
